@@ -1,0 +1,35 @@
+{
+  "name": "snowdown",
+  "version": "1.0.0",
+  "description": "Runner for snowpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlnorling/snowdown.git"
+  },
+  "keywords": [
+    "builder"
+  ],
+  "author": "Karl Norling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlnorling/snowdown/issues"
+  },
+  "homepage": "https://github.com/karlnorling/snowdown#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-helmet": "^6.0.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.11"
+  }
+}
